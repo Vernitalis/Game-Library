@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0"
+            prefWidth="640.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.example.gamelibrary.controllers.RegisterController">
+    <children>
+        <GridPane alignment="CENTER" layoutX="214.0" layoutY="118.0" prefHeight="243.0" prefWidth="200.0">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0"/>
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints maxHeight="42.39998779296875" minHeight="19.999993896484376" prefHeight="21.0"/>
+                <RowConstraints maxHeight="64.00000610351563" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                <RowConstraints maxHeight="53.00001220703125" minHeight="10.0" prefHeight="19.0" vgrow="SOMETIMES"/>
+                <RowConstraints maxHeight="70.9999755859375" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                <RowConstraints maxHeight="74.9999755859375" minHeight="9.0" prefHeight="21.0" vgrow="SOMETIMES"/>
+                <RowConstraints maxHeight="84.40001525878907" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                <RowConstraints maxHeight="87.4" minHeight="10.0" prefHeight="58.0" valignment="CENTER"
+                                vgrow="SOMETIMES"/>
+                <RowConstraints maxHeight="89.0" minHeight="10.0" prefHeight="39.0" valignment="CENTER"
+                                vgrow="SOMETIMES"/>
+            </rowConstraints>
+            <children>
+                <TextField fx:id="fldUsername" GridPane.rowIndex="1"/>
+                <TextField fx:id="fldEmail" GridPane.rowIndex="3"/>
+                <PasswordField fx:id="fldPassword" prefWidth="200.0" GridPane.rowIndex="5"/>
+                <Button fx:id="btnRegister" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false"
+                        onAction="#register" prefHeight="26.0" prefWidth="112.0" text="Utwórz konto"
+                        GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="CENTER"/>
+                <Label text="Username"/>
+                <Label prefHeight="18.0" prefWidth="204.0" text="e-mail" GridPane.rowIndex="2"/>
+                <Label text="Password" GridPane.rowIndex="4"/>
+                <Button fx:id="btnBack" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false"
+                        onAction="#backToMenu" prefHeight="26.0" prefWidth="112.0" text="Powrót do menu"
+                        GridPane.halignment="CENTER" GridPane.rowIndex="7" GridPane.valignment="CENTER"/>
+            </children>
+        </GridPane>
+        <Label fx:id="lblRegister" alignment="CENTER" layoutX="164.0" layoutY="362.0" prefHeight="18.0"
+               prefWidth="302.0" text="Rejestracja zakończona pomyślnie" textAlignment="CENTER" visible="false"/>
+    </children>
+</AnchorPane>

@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Main-Class: com.example.gamelibrary.Launcher
+Class-Path: ikonli-core-12.3.1.jar postgresql-42.7.2.jar javafx-graphics
+ -23.0.1.jar validatorfx-0.5.0.jar javafx-fxml-17.0.6-win.jar javafx-bas
+ e-23.0.1-win.jar javafx-graphics-23.0.1-win.jar javafx-controls-23.0.1.
+ jar javafx-base-23.0.1.jar bootstrapfx-core-0.4.0.jar checker-qual-3.42
+ .0.jar controlsfx-11.2.1.jar formsfx-core-11.6.0.jar ikonli-javafx-12.3
+ .1.jar javafx-controls-23.0.1-win.jar javafx-fxml-17.0.6.jar
+
